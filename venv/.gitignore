@@ -1,7 +1,11 @@
-# Created by venv; see https://docs.python.org/3/library/venv.html
+# Создаем/проверяем .gitignore
+cat > .gitignore << 'EOF'
 **.db
 backup/
 __pycache__/
 *.pyc
 .env
 venv/
+*.temp
+*.backup
+EOF
